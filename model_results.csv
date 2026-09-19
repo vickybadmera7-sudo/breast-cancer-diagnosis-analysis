@@ -1,0 +1,6 @@
+Model,CV Accuracy,CV Recall,CV ROC-AUC,Test Accuracy,Test Precision,Test Recall,Test F1,Test ROC-AUC,Missed Cancers (FN),False Alarms (FP)
+Logistic Regression,0.9736,0.9529,0.9958,0.9649,0.975,0.9286,0.9512,0.996,3,1
+SVM (RBF),0.9714,0.9471,0.9949,0.9649,0.9524,0.9524,0.9524,0.9947,2,2
+Gradient Boosting,0.967,0.9471,0.9908,0.9649,1.0,0.9048,0.95,0.9947,4,0
+Random Forest,0.9604,0.9353,0.988,0.9737,1.0,0.9286,0.963,0.9944,3,0
+Decision Tree,0.9209,0.8647,0.9023,0.9123,0.9444,0.8095,0.8718,0.877,8,2
